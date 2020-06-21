@@ -16,8 +16,8 @@ async function sendEmail(endTime, lotteryInfo) {
       let transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "workmail.sujit@gmail.com",
-          pass: "7974638557",
+          user: "your_email",
+          pass: "your_password",
         },
       });
       const sold = await lottery.findOne({ _id: lotteryInfo._id });
