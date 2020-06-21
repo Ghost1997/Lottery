@@ -8,10 +8,10 @@
 
 #Sample Input for Lottery Creation
 
-URI:localhost:3000/createLottery
-Method :POST
-Content-Type:application/json
-Body:{
+1. URI:localhost:3000/createLottery
+2. Method :POST
+3. Content-Type:application/json
+4. Body:{
 	"name":"SBI_LOTTERY",
 	"price":"200",
 	"startTime":"2020-06-21 12:42:02",
@@ -21,10 +21,10 @@ Body:{
 
 #Sample Input for Buy Lottery ticket
 
-URI:localhost:3000/buyTickets
-Method :POST
-Content-Type:application/json
-Body:{
+1. URI:localhost:3000/buyTickets
+2. Method :POST
+3. Content-Type:application/json
+4. Body:{
 	"lotteryId":"LOT450118",
 	"email":"sujitkumarverma1997@outlook.com",
 	"tickets":["TIK1005","TIK1006"]
