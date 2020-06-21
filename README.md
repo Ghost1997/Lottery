@@ -4,7 +4,7 @@
 2. open project folder in terminal write "npm install"
 3. in email.js file provide your gmail user and password
 4. run the project by using cmd "npm start"
-5  do create lotter and by lottery operation
+5. to create lotter and by lottery operation
 
 #Sample Input for Lottery Creation
 
