@@ -12,10 +12,10 @@ mongoose
     "mongodb+srv://admin:admin@cluster0-jne8p.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true"
   )
   .then(() => {
-    console.log("connected");
+    console.log("DB connected");
   })
   .catch(() => {
-    console.log("connection failed");
+    console.log("DB connection failed");
   });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
