@@ -12,9 +12,11 @@ class lotteryDAO {
       email: lotteryInfo.email,
     });
     let result = await lot.save().catch((err) => {
-      console.log(err);
-      return false;
+    return res.json({
+      status: false,
+      message: err.message,
     });
+  });
     if (result) {
       return true;
     } else {
@@ -29,9 +31,11 @@ class lotteryDAO {
       tickets: ticketInfo.tickets,
     });
     let result = await ticket.save().catch((err) => {
-      console.log(err);
-      return false;
+    return res.json({
+      status: false,
+      message: err.message,
     });
+  });
     if (result) {
       return true;
     } else {
